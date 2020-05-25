@@ -2,9 +2,9 @@ FROM debian:buster-slim
 MAINTAINER Jacob Alberty <jacob.alberty@foundigital.com>
 
 ARG DEBIAN_FRONTEND=noninteractive
-ARG CUPS_VERSION=2.3.1
-ARG FILTERS_VERSION=1.26.0
-ARG QPDF_VERSION=8.4.0
+ARG CUPS_VERSION=2.3.3
+ARG FILTERS_VERSION=1.27.4
+ARG QPDF_VERSION=10.0.1
 
 ENV PREFIX=/usr/local/docker
 ENV VOLUME=/config
